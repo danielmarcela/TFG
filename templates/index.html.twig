@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+    {% block body %}
+        <div class="text-center">
+            <h3>My Symfony 4 sample project</h3>
+            <div class="jumbotron text-center">
+                <example2></example2>
+            </div>
+        </div>
+    {% endblock %}
+{% block javascripts %}
+    <script src="{{ asset('build/js/app2.js') }}"></script>
+{% endblock %}
